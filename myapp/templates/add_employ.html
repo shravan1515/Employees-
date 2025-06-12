@@ -15,6 +15,14 @@
   <!-- Content here -->
         <h1>Add An Employ</h1>
       <hr>
+      <a class="btn btn-primary" href="all_employ" role="button">View All Employee</a>
+      <a class="btn btn-primary" href="add_employ" role="button">Add An Employee</a>
+      <a class="btn btn-primary" href="remove_employ" role="button">Remove An  Employee</a>
+      <a class="btn btn-primary" href="filter_employ" role="button">Filter Employee Details</a>
+      <div>
+          <p> </p>
+      </div>
+
       <form action="/add_employ" method="post">
           {% csrf_token %}
           <label for="first_name">First Name</label><br>
