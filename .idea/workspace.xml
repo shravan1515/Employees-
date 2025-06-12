@@ -4,33 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bab53623-cf96-4673-8c76-018468e8bd7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Resume.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/0002_remove_employee_fisrt_name_employee_first_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/add_employ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/all_employ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/filter_employ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/remove_employ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/office_empl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/office_empl/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/office_empl/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/office_empl/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/office_empl/wsgi.py" afterDir="false" />
+    <list default="true" id="bab53623-cf96-4673-8c76-018468e8bd7d" name="Changes" comment="complete employee management system">
+      <change beforePath="$PROJECT_DIR$/.idea/Resume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Resume.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +41,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "fileTemplates"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -83,6 +60,15 @@
       <option name="presentableId" value="Default" />
       <updated>1747474845983</updated>
     </task>
+    <task id="LOCAL-00001" summary="complete employee management system">
+      <option name="closed" value="true" />
+      <created>1747662896085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747662896085</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,5 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="complete employee management system" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete employee management system" />
   </component>
 </project>
