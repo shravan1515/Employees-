@@ -53,18 +53,18 @@ def filter_employ(request):
         emps = Employee.objects.all()
 
         if name:
-          emps = emps.filter(Q(first_name__icontains = name) | Q(last_name__icontains = name))
+          emps = emps.filter(Q(first_name__icontains=name) | Q(last_name__icontains=name))
         if role:
-            emps = emps.filter(role__name__icontains= role)
+            emps = emps.filter(role__name__icontains=role)
         if dept:
-            emps = emps.filter(dept__name__icontains = dept)
+            emps = emps.filter(dept__name__icontains=dept)
 
         context = {
-             'emps' : emps
+             'emps': emps
         }
-        return render(request,"all_employ.html",context)
+        return render(request, "all_employ.html", context)
     elif request.method == "GET":
         return render(request, "filter_employ.html")
     else:
-        return HttpResponse("En Exeption error")
+        return HttpResponse("En Exception error")
 
